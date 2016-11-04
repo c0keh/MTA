@@ -22,11 +22,11 @@ channels: Kanäle (mono/stereo/...)
 
 Bit/s = SamplesProSekunde * bits
 
-![SpracheMetadaten](/Bilder/Aufgabe1_Sprach_Metadaten.jpg)
+![SpracheMetadaten](/Bilder/Aufgabe1_Sprach_Metadaten.JPG)
 Bit/s = 22050 * 16 = 352800
 
 
-![SpracheMetadaten](/Bilder/Aufgabe1_Musik_Metadaten.jpg)
+![SpracheMetadaten](/Bilder/Aufgabe1_Musik_Metadaten.JPG)
 Bit/s = 44100 * 16 = 705600
 
 

@@ -13,20 +13,27 @@ Dateien?
 ### Lösung
 
 filelength: Größe der WAV-Datei in Bit
+
 Samples: erstellte Samples (Proben) insgesamt.
+
 rate: erstellte Samples pro Sekunde
+
 bits: Auflösung der Amplitude je Sample
+
 bytes per Sample: channels * bits in byte
+
 channels: Kanäle (mono/stereo/...)
 
 
 Bit/s = SamplesProSekunde * bits
 
-![](/Bilder/Aufgabe1_Sprach_Metadaten.JPG)
+![Sprache](Bilder/Aufgabe1_Sprach_Metadaten.jpg)
+
 Bit/s = 22050 * 16 = 352800
 
 
-![](/Bilder/Aufgabe1_Musik_Metadaten.JPG)
+![Musik](Bilder/Aufgabe1_Musik_Metadaten.jpg)
+
 Bit/s = 44100 * 16 = 705600
 
 

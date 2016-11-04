@@ -11,7 +11,23 @@ empfiehlt). Wähle eine Abtastrate von 44kHz, 16 Bit Auflösung, mono und achte 
 Dateien?
 
 ### Lösung
-xxx
+
+filelength: Größe der WAV-Datei in Bit
+Samples: erstellte Samples (Proben) insgesamt.
+rate: erstellte Samples pro Sekunde
+bits: Auflösung der Amplitude je Sample
+bytes per Sample: channels * bits in byte
+channels: Kanäle (mono/stereo/...)
+
+
+Bit/s = SamplesProSekunde * bits
+
+![SpracheMetadaten](/Bilder/Aufgabe1_Sprach_Metadaten)
+Bit/s = 22050 * 16 = 352800
+
+
+![SpracheMetadaten](/Bilder/Aufgabe1_Musik_Metadaten)
+Bit/s = 44100 * 16 = 705600
 
 
 ## Aufgabe 2 - Aliasing
@@ -48,5 +64,7 @@ c
 
 ### Lösung
 Musik-Störung ab 128
+
 Sprache-Störung 128
+
 Sprache gerade noch verständlich 1024

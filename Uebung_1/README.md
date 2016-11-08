@@ -113,14 +113,17 @@ b
 ### Lösung
 
 **Abtasttheorem:**
+
 Abtastfrequenz > (höchste vorkommende Frequenz) * 2
 
 ---
 
 c
-> Bei  herkömmlichen  Soundkarten  tritt  systembedingt  kein  Aliasing  auf,  weil  das  Audiosignal  stets geeignet vorbehandelt wird (wie?). 
+> Bei  herkömmlichen  Soundkarten  tritt  systembedingt  kein  Aliasing  auf,  weil  das  Audiosignal  stets geeignet vorbehandelt wird (wie?).
 
 ### Lösung
+
+Ein Tiefpassfilter lässt nur Frequenzen durch, die kein Aliasing zur Folge hätten.
 
 ---
 

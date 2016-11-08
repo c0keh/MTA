@@ -42,6 +42,14 @@ Bit/s = 44100 * 16 = 705600
 a
 > Modifiziere  wave_io dahingehend,  dass  die  Samples  in  der  WAV-Datei  in  eine  (lesbare)  ASCII-Datei geschrieben  werden.  Lies  die  von  mir  geschickten  Dateien  (Sampling-Frequenz:  16  kHz)  ein  und bestimme   aus   den   resultierenden   Zahlenfolgen   in   der   ASCII-Datei   die Frequenz   der   Sinus-Schwingungen. Erkläre das Ergebnis und speichere jeweils eine Periode für das Protokoll ab. Überprüfe Deine Schätzung mit dem Spektralanalyse-Tool GRAM (Plots ins Protokoll !). Vorgehensweise: Menü Analyze File, Einstellungen: Freq Scale: Linear, FFT Size: 512, Time scale: 1 msec
 
+Spektralanalyse der hohen Sinusschwingung
+
+![Spektralanalyse High Sin](Bilder/Aufgabe_2a_Spektralanalyse.JPG)
+
+Spektralanalyse der tiefen Sinusschwingung
+
+![Spektralanalyse High Sin](Bilder/Aufgabe_2a_Spektralanalyse_lo.JPG)
+
 b
 > Bei der zeitlichen Diskretisierung eines Analogsignals muss das sogenannte Abtasttheorem eingehalten werden.  Wie lautet  es  und  wie  lässt  sich  der  Grenzfall,  für  den  es  gerade  noch  gilt,  illustrieren (Zeichnung!)?
 
@@ -50,6 +58,22 @@ c
 
 d
 > Mit einem kleinen Trick lässt sich Aliasing jedoch nachweisen. Diese auch als Down-Sampling bekannte Methode  besteht  darin,  dass  man  bei  einer  WAV-Datei  z.B.  jeden  zweiten  Abtastwert  wegwirft.  Man erhält  so  eine  Wellenform,  die  genau  die  Hälfte  der  ursprünglichen  Abtastfrequenz  aufweist.  Wenn man das Signal nicht vorher bandbegrenzt hat, können Aliasing-Verzerrungen hörbar werden. Modifiziere  wave_io  dahingehend,  dass  vom  eingelesenen  Signal  jeder  zweite  Abtastwert  verworfen wird  und  das  resultierende  Signal  abgespeichert  wird. Der  Header  muss natürlich  entsprechendverändert  werden!  Wende  das  resultierende  Programm  zunächst  auf  'sine_lo.wav'  und  'sine_hi.wav' an.   Welche   Frequenzen   erscheinen   nach   dem   Down-Sampling   (Spektrogramm   und   WAVs   ins Protokoll!)? 
+
+Downsampling der tiefen Sinusschwingung
+
+![Downsampling Low Sin](Bilder/Aufgabe2d_Lo_Sin00_halbes_sample.JPG)
+
+![Downsampling Low Sin](Sounds/downsampling_lo.wav)
+
+Die Frequenz verändert sich nicht.
+
+Downsampling der hohen Sinusschwingung
+
+![Downsampling Low Sin](Bilder/Aufgabe2d_Hi_Sin00_halbes_sample.JPG)
+
+![Downsampling Low Sin](Sounds/downsampling_hi.wav)
+
+Nach dem Downsampling ist die Frequenz kleiner.
 
 e
 > Was würde passieren, wenn man geeignet bandbegrenzen würde?

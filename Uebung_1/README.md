@@ -132,21 +132,21 @@ d
 
 ### Lösung
 
-Downsampling der tiefen Sinusschwingung
+**Downsampling der hohen Sinusschwingung**
 
-![Downsampling Low Sin](Bilder/Aufgabe2d_Lo_Sin00_halbes_sample.JPG)
+![Downsampling sin_hi](Sounds/downsampling_hi.wav)
 
-![Downsampling Low Sin](Sounds/downsampling_lo.wav)
-
-Die Frequenz verändert sich nicht.
-
-Downsampling der hohen Sinusschwingung
-
-![Downsampling Low Sin](Bilder/Aufgabe2d_Hi_Sin00_halbes_sample.JPG)
-
-![Downsampling Low Sin](Sounds/downsampling_hi.wav)
+![Downsampling sin_hi](Bilder/Aufgabe2d_Hi_Sin00_halbes_sample.JPG)
 
 Nach dem Downsampling ist die Frequenz schwächer.
+
+**Downsampling der tiefen Sinusschwingung**
+
+![Downsampling sin_lo](Sounds/downsampling_lo.wav)
+
+![Downsampling sin_lo](Bilder/Aufgabe2d_Lo_Sin00_halbes_sample.JPG)
+
+Die Frequenz verändert sich nicht.
 
 ---
 

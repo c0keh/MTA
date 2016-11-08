@@ -218,43 +218,45 @@ c
 
 ### Lösung
 
+Ausgangsfile: [Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
 Rauschen um 1 bit reduiziert:
 
 - [Rauschen 1 bit reduziert](Sounds/3c_diff_sprache_rauschen_1bit.wav)
 
-![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+![Rauschen 1 bit reduziert](Bilder/3c_diff_sprache_rauschen_1bit_GRAM.JPG)
 
 ---
 
 Rauschen um 2 bit reduiziert:
 
-[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+- [Rauschen 2 bit reduziert](Sounds/3c_diff_sprache_rauschen_2bit.wav)
 
-![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+![Rauschen 2 bit reduziert](Bilder/3c_diff_sprache_rauschen_2bit_GRAM.JPG)
 
 ---
 
 Rauschen um 3 bit reduiziert:
 
-[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+- [Rauschen 3 bit reduziert](Sounds/3c_diff_sprache_rauschen_3bit.wav)
 
-![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+![Rauschen 3 bit reduziert](Bilder/3c_diff_sprache_rauschen_3bit_GRAM.JPG)
 
 ---
 
 Rauschen um 4 bit reduiziert:
 
-[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+- [Rauschen 4 bit reduziert](Sounds/3c_diff_sprache_rauschen_4bit.wav)
 
-![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+![Rauschen 4 bit reduziert](Bilder/3c_diff_sprache_rauschen_4bit_GRAM.JPG)
 
 ---
 
 Rauschen um 5 bit reduiziert:
 
-[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+- [Rauschen 5 bit reduziert](Sounds/3c_diff_sprache_rauschen_5bit.wav)
 
-![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+![Rauschen 5 bit reduziert](Bilder/3c_diff_sprache_rauschen_5bit_GRAM.JPG)
 
 ---
 

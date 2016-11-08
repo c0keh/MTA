@@ -66,11 +66,11 @@ a
 
 [- sin_hi Samples als .txt](sin_hi.txt)
 
-Auszug von 10 Samples ( >2 Perioden):
+**Auszug von 10 Samples ( >2 Perioden):**
 
 `3196, -16069, 9102, 9102, -16069, 3196, 13623, -13623, -3196, 16069`
 
-Betrachtung Periode A:
+*Betrachtung Periode A:*
 
 1. Nulldurchlauf zwischen 3196 und -16069
 
@@ -80,7 +80,7 @@ Betrachtung Periode A:
 
 Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 3
 
-Betrachtung Periode B:
+*Betrachtung Periode B:*
 
 1. Nulldurchlauf zwischen 9102 und -16069
 
@@ -90,7 +90,7 @@ Betrachtung Periode B:
 
 Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 3
 
-Betrachtung Periode C:
+*Betrachtung Periode C:*
 
 1. Nulldurchlauf zwischen -16069 und 3196
 
@@ -145,7 +145,7 @@ d
 
 **Downsampling der hohen Sinusschwingung**
 
-[Downsampling sin_hi](Sounds/downsampling_hi.wav)
+- [Downsampling sin_hi](Sounds/downsampling_hi.wav)
 
 ![Downsampling sin_hi](Bilder/Aufgabe2d_Hi_Sin00_halbes_sample.JPG)
 
@@ -155,7 +155,7 @@ Nach dem Downsampling ist die Frequenz schwächer.
 
 **Downsampling der tiefen Sinusschwingung**
 
-[Downsampling sin_lo](Sounds/downsampling_lo.wav)
+- [Downsampling sin_lo](Sounds/downsampling_lo.wav)
 
 ![Downsampling sin_lo](Bilder/Aufgabe2d_Lo_Sin00_halbes_sample.JPG)
 
@@ -198,17 +198,17 @@ b
 
 **Hörbare Verschlechterung bei Sprache:** 7 bit Reduzierung
 
-![Sprache 7 bit reduziert](Sounds/3b_musik128.wav )
+- [Sprache 7 bit reduziert](Sounds/3b_musik128.wav)
 
 
 **Hörbare Verschlechterung bei Musik:** 7 bit Reduzierung
 
-![Musik 7 bit reduziert](Sounds/3b_sprache128.wav)
+- [Musik 7 bit reduziert](Sounds/3b_sprache128.wav)
 
 
 **Gerade noch verständlich bei Sprache:** 10 bit Reduzierung
 
-![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+- [Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
 
 
 ---
@@ -218,7 +218,43 @@ c
 
 ### Lösung
 
+Rauschen um 1 bit reduiziert:
 
+- [Rauschen 1 bit reduziert](Sounds/3c_diff_sprache_rauschen_1bit.wav)
+
+![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+---
+
+Rauschen um 2 bit reduiziert:
+
+[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+---
+
+Rauschen um 3 bit reduiziert:
+
+[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+---
+
+Rauschen um 4 bit reduiziert:
+
+[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+---
+
+Rauschen um 5 bit reduiziert:
+
+[Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
+![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
 
 ---
 

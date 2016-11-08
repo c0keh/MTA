@@ -97,6 +97,10 @@ Spektralanalyse der hohen Sinusschwingung
 
 ![Spektralanalyse High Sin](Bilder/Aufgabe_2a_Spektralanalyse.JPG)
 
+Es zeigt sich, dass die Berechnung anhand der Text-Samples ungenau, trotzdem aber nicht weit vom tatsächlichen Wert entfernt liegen.
+
+---
+
 Spektralanalyse der tiefen Sinusschwingung
 
 ![Spektralanalyse High Sin](Bilder/Aufgabe_2a_Spektralanalyse_lo.JPG)

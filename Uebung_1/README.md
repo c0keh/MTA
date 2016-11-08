@@ -1,5 +1,16 @@
 # Uebung 1
 
+Ausgangsfiles:
+
+- [Sprache](Sounds/Sprache_GROOPE.WAV)
+
+- [Musik](Sounds/Musik_GROOPE.WAV)
+
+- [sine_hi](Sounds/sine_hi00.wav)
+
+- [sine_lo](Sounds/sine_lo00.wav)
+
+
 
 ## Aufgabe 1 - Audioaufnahme
 
@@ -53,7 +64,7 @@ a
 
 ### Lösung
 
-![- sin_hi Samples als .txt](sin_hi.txt)
+[- sin_hi Samples als .txt](sin_hi.txt)
 
 Auszug von 10 Samples ( >2 Perioden):
 
@@ -134,7 +145,7 @@ d
 
 **Downsampling der hohen Sinusschwingung**
 
-![Downsampling sin_hi](Sounds/downsampling_hi.wav)
+[Downsampling sin_hi](Sounds/downsampling_hi.wav)
 
 ![Downsampling sin_hi](Bilder/Aufgabe2d_Hi_Sin00_halbes_sample.JPG)
 
@@ -144,7 +155,7 @@ Nach dem Downsampling ist die Frequenz schwächer.
 
 **Downsampling der tiefen Sinusschwingung**
 
-![Downsampling sin_lo](Sounds/downsampling_lo.wav)
+[Downsampling sin_lo](Sounds/downsampling_lo.wav)
 
 ![Downsampling sin_lo](Bilder/Aufgabe2d_Lo_Sin00_halbes_sample.JPG)
 
@@ -185,15 +196,18 @@ b
 
 ### Lösung
 
-**Hörbare Verschlechterung bei Sprache: ** 7 bit Reduzierung
+**Hörbare Verschlechterung bei Sprache:** 7 bit Reduzierung
+
 ![Sprache 7 bit reduziert](Sounds/3b_musik128.wav )
 
 
-**Hörbare Verschlechterung bei Musik: ** 7 bit Reduzierung
+**Hörbare Verschlechterung bei Musik:** 7 bit Reduzierung
+
 ![Musik 7 bit reduziert](Sounds/3b_sprache128.wav)
 
 
-**Gerade noch verständlich bei Sprache: ** 10 bit Reduzierung
+**Gerade noch verständlich bei Sprache:** 10 bit Reduzierung
+
 ![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
 
 
@@ -204,11 +218,7 @@ c
 
 ### Lösung
 
-Musik-Störung ab 128
 
-Sprache-Störung 128
-
-Sprache gerade noch verständlich 1024
 
 ---
 

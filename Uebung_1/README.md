@@ -73,7 +73,7 @@ Downsampling der hohen Sinusschwingung
 
 ![Downsampling Low Sin](Sounds/downsampling_hi.wav)
 
-Nach dem Downsampling ist die Frequenz kleiner.
+Nach dem Downsampling ist die Frequenz schwächer.
 
 e
 > Was würde passieren, wenn man geeignet bandbegrenzen würde?

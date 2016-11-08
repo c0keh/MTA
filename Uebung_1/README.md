@@ -22,14 +22,20 @@ Channels: Audio-Kanäle (1: mono/2: stereo/...)
 
 Bit/s = Rate * Bits
 
+---
+
 ![Sprache](Bilder/Aufgabe1_Sprach_Metadaten.jpg)
 
 **Berechnung: Bitrate (Sprache)**
+
 Rate * Bits = 22050 * 16 = 352800 Bit/s
+
+---
 
 ![Musik](Bilder/Aufgabe1_Musik_Metadaten.jpg)
 
 **Berechnung: Bitrate (Musik)**
+
 Rate * Bits = 44100 * 16 = 705600 Bit/s
 
 

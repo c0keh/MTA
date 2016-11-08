@@ -156,6 +156,7 @@ e
 > Was würde passieren, wenn man geeignet bandbegrenzen würde?
 
 ### Lösung
+
 xxx
 
 ---
@@ -173,12 +174,28 @@ a
 
 ### Lösung
 
+Bei 8 bit: 2^8 = 256
+
+Bei 16 bit: 2^16 = 65536
+
 ---
 
 b
-> Wir  wollen  nun  wave_io  so  modifizieren,  dass  wir  die  Bitanzahl  reduzieren  können.  Dazu  können  wir z.B. alle  Samples durch eine  Potenz von 2 teilen (Integer-Division ohne  Rest). Damit das resultierende Signal  nicht  leiser  wird  als  das  Original,  kompensierenwir  die  Operation  durch  Multiplikation  mit derselben  Zweierpotenz. Beachte:  Der  Datentyp  hat  nach  wie  vor  16  Bit!(Denselben  Effekt  erreicht man auch durch einfaches logisches 'Verunden' mit einem entsprechenden HEX-Wert, indem man mit dem LSB beginnend Bits 'ausblendet'.) Mit dem entstandenen Programm verändern wir die in Aufgabe 1   erzeugten   Wave-Dateien.   Ab   welcher   Bitzahl   tritt   bei   Musik/Sprache   eine   hörbare/deutliche Verschlechterung der Qualität ein? Bei wieviel Bit ist dasSprachsignal noch verständlich? (Waves für all diese     Fälle     ins    Protokoll,     Ausschnitte     als    Plots).Was     charakterisiert     das     entstehende Quantisierungsgeräusch und macht es besonders störend?
+> Wir  wollen  nun  wave_io  so  modifizieren,  dass  wir  die  Bitanzahl  reduzieren  können.  Dazu  können  wir z.B. alle  Samples durch eine  Potenz von 2 teilen (Integer-Division ohne  Rest). Damit das resultierende Signal  nicht  leiser  wird  als  das  Original,  kompensierenwir  die  Operation  durch  Multiplikation  mit derselben  Zweierpotenz. Beachte:  Der  Datentyp  hat  nach  wie  vor  16  Bit!(Denselben  Effekt  erreicht man auch durch einfaches logisches 'Verunden' mit einem entsprechenden HEX-Wert, indem man mit dem LSB beginnend Bits 'ausblendet'.) Mit dem entstandenen Programm verändern wir die in Aufgabe 1   erzeugten   Wave-Dateien.   Ab   welcher   Bitzahl   tritt   bei   Musik/Sprache   eine   hörbare/deutliche Verschlechterung der Qualität ein? Bei wieviel Bit ist das Sprachsignal noch verständlich? (Waves für all diese     Fälle     ins    Protokoll,     Ausschnitte     als    Plots).Was     charakterisiert     das     entstehende Quantisierungsgeräusch und macht es besonders störend?
 
 ### Lösung
+
+**Hörbare Verschlechterung bei Sprache: ** 7 bit Reduzierung
+![Sprache 7 bit reduziert](Sounds/3b_musik128.wav )
+
+
+**Hörbare Verschlechterung bei Musik: ** 7 bit Reduzierung
+![Musik 7 bit reduziert](Sounds/3b_sprache128.wav)
+
+
+**Gerade noch verständlich bei Sprache: ** 10 bit Reduzierung
+![Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
+
 
 ---
 

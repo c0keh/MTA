@@ -55,21 +55,42 @@ a
 
 ![sin_hi Samples als .txt](sin_hi.txt)
 
-Auszug von 3/2 Perioden:
+Auszug von 10 Samples ( >2 Perioden):
 
-`3196, -16069, 9102, 9102, -16069, 3196, 13623, -13623, -3196, 16069, -9102, -9102, 16069, -3196, -13623`
+`3196, -16069, 9102, 9102, -16069, 3196, 13623, -13623, -3196, 16069`
+
+Betrachtung Periode A:
 
 1. Nulldurchlauf zwischen 3196 und -16069
 
-2. Nulldurchlauf zwischen 9102 und -16069
+2. Nulldurchlauf zwischen -16069 und 9102
+
+3. Nulldurchlauf zwischen 9102 und -16069
+
+Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 4
+
+Betrachtung Periode B:
+
+1. Nulldurchlauf zwischen 9102 und -16069
+
+2. Nulldurchlauf zwischen -16069 und 3196
 
 3. Nulldurchlauf zwischen 13623 und -13623
 
-4. Nulldurchlauf zwischen -3196 und 16069
+Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 3
 
-...
+Betrachtung Periode C:
 
-Der 3. Nulldurchlauf beschreibt den Beginn der nächsten Periode
+1. Nulldurchlauf zwischen -16069 und 3196
+
+2. Nulldurchlauf zwischen 13626 und -13623
+
+3. Nulldurchlauf zwischen -3196 und 16069
+
+Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 4
+
+
+Der 3. Nulldurchlauf beschreibt immer den Beginn der nächsten Periode. So besteht 1 Periode hier aus 3-4 (~3,67) Samples. 1 Sample hat bei einer Rate von 16kHz eine Dauer von 0,0625ms. 3,67 Samples (1 Periode) somit 0,23ms. Demnach passen 4348 Perioden in 1 Sekunde. Dies entspräche wiederum Frequenz von 4,347 kHz.
 
 
 

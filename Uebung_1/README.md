@@ -168,7 +168,11 @@ e
 
 ### Lösung
 
-xxx
+Da der gegebene hohe Sinus *konstant* 5 kHz hat, die bei einer Samplingfrequenz von nur 8 kHz (nach Downsampling) nicht das Abtasttheorem erfüllen, würde jede Bandbegrenzung von weniger als 5 kHz den kompletten Sinus herausfiltern. 
+
+Eine geeignete Bandbegrenzung, nach Downsampling, wäre 4 kHz. 
+
+Bei dem sine_lo würde sich nichts verändern, da dieser unter 4 kHz verläuft. 
 
 ---
 
@@ -185,9 +189,9 @@ a
 
 ### Lösung
 
-Bei 8 bit: 2^8 = 256
+Bei 8 bit: 2^8 = 256 Werte
 
-Bei 16 bit: 2^16 = 65536
+Bei 16 bit: 2^16 = 65536 Werte
 
 ---
 
@@ -210,7 +214,6 @@ b
 
 - [Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
 
-
 ---
 
 c
@@ -220,7 +223,7 @@ c
 
 Ausgangsfile: [Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
 
-Rauschen um 1 bit reduiziert:
+**Rauschen um 1 bit reduiziert:**
 
 - [Rauschen 1 bit reduziert](Sounds/3c_diff_sprache_rauschen_1bit.wav)
 
@@ -228,7 +231,7 @@ Rauschen um 1 bit reduiziert:
 
 ---
 
-Rauschen um 2 bit reduiziert:
+**Rauschen um 2 bit reduiziert:**
 
 - [Rauschen 2 bit reduziert](Sounds/3c_diff_sprache_rauschen_2bit.wav)
 
@@ -236,7 +239,7 @@ Rauschen um 2 bit reduiziert:
 
 ---
 
-Rauschen um 3 bit reduiziert:
+**Rauschen um 3 bit reduiziert:**
 
 - [Rauschen 3 bit reduziert](Sounds/3c_diff_sprache_rauschen_3bit.wav)
 
@@ -244,7 +247,7 @@ Rauschen um 3 bit reduiziert:
 
 ---
 
-Rauschen um 4 bit reduiziert:
+**Rauschen um 4 bit reduiziert:**
 
 - [Rauschen 4 bit reduziert](Sounds/3c_diff_sprache_rauschen_4bit.wav)
 
@@ -252,7 +255,7 @@ Rauschen um 4 bit reduiziert:
 
 ---
 
-Rauschen um 5 bit reduiziert:
+**Rauschen um 5 bit reduiziert:**
 
 - [Rauschen 5 bit reduziert](Sounds/3c_diff_sprache_rauschen_5bit.wav)
 

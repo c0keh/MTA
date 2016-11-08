@@ -53,15 +53,25 @@ a
 
 ### Lösung
 
-![sin_hi_Samples](sin_hi.txt)
+![sin_hi Samples als .txt](sin_hi.txt)
 
 Auszug von 3/2 Perioden:
 
-`13623, 3196, -16069, 9102, 9102, -16069, 3196, 13623, `
+`3196, -16069, 9102, 9102, -16069, 3196, 13623, -13623, -3196, 16069, -9102, -9102, 16069, -3196, -13623`
 
-`-13623, -3196, 16069, -9102, -9102, 16069, -3196, -13623`
+1. Nulldurchlauf zwischen 3196 und -16069
 
-`13623, 3196, -16069,9102, 9102, -16069, 3196, 13623`
+2. Nulldurchlauf zwischen 9102 und -16069
+
+3. Nulldurchlauf zwischen 13623 und -13623
+
+4. Nulldurchlauf zwischen -3196 und 16069
+
+...
+
+Der 3. Nulldurchlauf beschreibt den Beginn der nächsten Periode
+
+
 
 
 Spektralanalyse der hohen Sinusschwingung

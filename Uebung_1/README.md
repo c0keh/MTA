@@ -93,7 +93,7 @@ Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 4
 Der 3. Nulldurchlauf beschreibt immer den Beginn der nächsten Periode. So besteht 1 Periode hier aus 3-4 (~3,32) Samples. 1 Sample hat bei einer Rate von 16kHz eine Dauer von 0,0625ms. 3,32 Samples (1 Periode) somit 0,21ms. Demnach passen 4762 Perioden in 1 Sekunde. Dies entspräche wiederum Frequenz von 4,762 kHz.
 
 
-Spektralanalyse der hohen Sinusschwingung
+*Spektralanalyse der hohen Sinusschwingung*
 
 ![Spektralanalyse High Sin](Bilder/Aufgabe_2a_Spektralanalyse.JPG)
 
@@ -101,7 +101,7 @@ Es zeigt sich, dass die Berechnung anhand der Text-Samples ungenau, trotzdem abe
 
 ---
 
-Spektralanalyse der tiefen Sinusschwingung
+*Spektralanalyse der tiefen Sinusschwingung*
 
 ![Spektralanalyse High Sin](Bilder/Aufgabe_2a_Spektralanalyse_lo.JPG)
 
@@ -139,6 +139,8 @@ d
 ![Downsampling sin_hi](Bilder/Aufgabe2d_Hi_Sin00_halbes_sample.JPG)
 
 Nach dem Downsampling ist die Frequenz schwächer.
+
+---
 
 **Downsampling der tiefen Sinusschwingung**
 

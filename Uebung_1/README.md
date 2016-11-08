@@ -53,7 +53,7 @@ a
 
 ### Lösung
 
-![sin_hi Samples als .txt](sin_hi.txt)
+![- sin_hi Samples als .txt](sin_hi.txt)
 
 Auszug von 10 Samples ( >2 Perioden):
 
@@ -111,6 +111,9 @@ b
 > Bei der zeitlichen Diskretisierung eines Analogsignals muss das sogenannte Abtasttheorem eingehalten werden.  Wie lautet  es  und  wie  lässt  sich  der  Grenzfall,  für  den  es  gerade  noch  gilt,  illustrieren (Zeichnung!)?
 
 ### Lösung
+
+**Abtasttheorem:**
+Abtastfrequenz > (höchste vorkommende Frequenz) * 2
 
 ---
 

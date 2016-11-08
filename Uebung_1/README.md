@@ -67,7 +67,7 @@ Betrachtung Periode A:
 
 3. Nulldurchlauf zwischen 9102 und -16069
 
-Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 4
+Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 3
 
 Betrachtung Periode B:
 
@@ -90,9 +90,7 @@ Betrachtung Periode C:
 Zwischen 1. und 3. Nulldurchlauf erstellte Samples: 4
 
 
-Der 3. Nulldurchlauf beschreibt immer den Beginn der nächsten Periode. So besteht 1 Periode hier aus 3-4 (~3,67) Samples. 1 Sample hat bei einer Rate von 16kHz eine Dauer von 0,0625ms. 3,67 Samples (1 Periode) somit 0,23ms. Demnach passen 4348 Perioden in 1 Sekunde. Dies entspräche wiederum Frequenz von 4,347 kHz.
-
-
+Der 3. Nulldurchlauf beschreibt immer den Beginn der nächsten Periode. So besteht 1 Periode hier aus 3-4 (~3,32) Samples. 1 Sample hat bei einer Rate von 16kHz eine Dauer von 0,0625ms. 3,32 Samples (1 Periode) somit 0,21ms. Demnach passen 4762 Perioden in 1 Sekunde. Dies entspräche wiederum Frequenz von 4,762 kHz.
 
 
 Spektralanalyse der hohen Sinusschwingung

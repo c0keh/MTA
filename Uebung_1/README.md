@@ -64,7 +64,7 @@ a
 
 ### Lösung
 
-[- sin_hi Samples als .txt](sin_hi.txt)
+- [sin_hi Samples als .txt](sin_hi.txt)
 
 **Auszug von 10 Samples ( >2 Perioden):**
 
@@ -134,7 +134,7 @@ c
 
 ### Lösung
 
-Ein Tiefpassfilter lässt nur Frequenzen durch, die kein Aliasing zur Folge hätten.
+Ein geeigneter Tiefpassfilter lässt nur Frequenzen durch, die kein Aliasing zur Folge hätten.
 
 ---
 

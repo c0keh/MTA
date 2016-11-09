@@ -216,6 +216,9 @@ b
 
 ---
 
+
+Das Quantisierungsgeräusch charakterisiert sich durch Rauschen und besonders störend wird es durch die überlagerung des Originalssignals. 
+
 c
 > Modifiziere  dein  Programm  noch  einmal  so,  dass  auch  das  Differenzsignal  zwischen  Original  und bitreduziertem  Signal,  das  heißt,  das  Quantisierungsrauschen  ausgegeben  werden  kann.  Welchen Charakter hat das Rauschen bei einer Reduktion um 1 Bit, wie verändert es sich bei zunehmender Bit-Reduktion? (Waves für all diese Fälle ins Protokoll, Ausschnitteals Plots)
 
@@ -262,6 +265,9 @@ Ausgangsfile: [Sprache 10 bit reduziert](Sounds/3b_sprache1024.wav)
 ![Rauschen 5 bit reduziert](Bilder/3c_diff_sprache_rauschen_5bit_GRAM.JPG)
 
 ---
+
+Mit dem ansteigenden der Bit-Reduktion, verringert sich das Rauschen.
+
 
 ### Fehlerbetrachtung
 

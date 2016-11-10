@@ -4,6 +4,12 @@ Ausgangsfiles:
 
 - [Sprache](Sounds/Sprache_GROOPE.WAV)
 
+<audio controls="controls">
+  <source type="audio/mp3" src="Sprache_GROOPE.WAV"></source>
+  <source type="audio/ogg" src="Sprache_GROOPE.WAV"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
 - [Musik](Sounds/Musik_GROOPE.WAV)
 
 - [sine_hi](Sounds/sine_hi00.wav)
